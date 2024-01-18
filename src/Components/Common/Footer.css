@@ -1,0 +1,49 @@
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  color: #000;
+ 
+   
+   background-color:aliceblue
+   
+}
+
+.footer-section {
+  flex: 1 1 300px;
+  margin: 0 10px;
+}
+
+.footer-section h3 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: #000;
+}
+
+
+.footer-section .fab {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-section .fab:hover {
+  color: #333;
+}
+
+
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section select,
+.footer-section input {
+  padding: 10
+}

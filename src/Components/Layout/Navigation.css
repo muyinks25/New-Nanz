@@ -1,0 +1,55 @@
+
+.Navigation {
+  transition: margin-left 0.3s ease;
+
+}
+
+.menu-open {
+  
+  background-color: #FFFFFF;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.nav-icon-container {
+  cursor: pointer; 
+  
+}
+
+.drawer__button-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 40px; 
+  height: 200px; 
+}
+
+.nav-icon {
+  width: 24px; 
+  height: 24px; 
+  fill: currentColor; 
+ 
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0; 
+}
+
+.nav-menu li {
+  margin-bottom: 10px; 
+  font-size: 16px; 
+  color: #111111; 
+  cursor: pointer;
+}
+
+
+.nav-menu li:hover {
+  color: #007bff;
+}

@@ -1,0 +1,41 @@
+
+/* Default styles for all screen sizes */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column; /* Mobile-first: stack items vertically */
+}
+
+.logo {
+  text-align: center; /* Center the text */
+  margin-bottom: 10px; /* Add some spacing */
+}
+
+/* Media query for screens 600px and above */
+@media screen and (min-width: 600px) {
+  .header-menu {
+    flex-direction: row; /* Switch to horizontal layout */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+  }
+
+  .logo {
+    text-align: left; /* Align the text to the left */
+    margin-bottom: 0; /* Reset the margin */
+  }
+}
+
+/* Media query for screens 1200px and above */
+@media screen and (min-width: 1200px) {
+  .header-menu {
+    padding: 20px; /* Adjust padding for larger screens */
+  }
+
+  /* Additional styles for even larger screens if needed */
+}
+
